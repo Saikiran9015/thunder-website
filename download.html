@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Thunder | Custom Pouch Designer</title>
+    <meta name="description" content="Download the Thunder app and start designing your premium mobile pouches today.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .download-hero {
+            min-height: 80vh;
+            padding-top: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .software-preview {
+            max-width: 600px;
+            margin: 3rem 0;
+            position: relative;
+        }
+
+        .software-preview img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 0 40px var(--accent-glow);
+            border: 1px solid var(--glass-border);
+        }
+
+        .download-options {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .download-btn {
+            padding: 1.2rem 2.5rem;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            transition: 0.3s;
+            font-weight: 600;
+        }
+
+        .download-btn:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 242, 255, 0.2);
+        }
+
+        .download-btn i {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+        }
+
+        @media (max-width: 768px) {
+            .download-options {
+                flex-direction: column;
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">THUNDER</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#features">Why Us</a></li>
+            <li><a href="download.html" style="color: var(--accent-color);">Download</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="download-hero">
+        <span class="hero-tag">Get Started</span>
+        <h1>Download Thunder App</h1>
+        <p>Design your device, your way. Take full control of your mobile pouch aesthetics with our premium design
+            software.</p>
+
+        <div class="software-preview">
+            <img src="static/moble.png" alt="Thunder Software Preview">
+        </div>
+
+        <div class="download-options">
+            <a href="#" class="glass download-btn">
+                <i class="fab fa-windows"></i>
+                <div style="text-align: left;">
+                    <small style="display: block; font-size: 0.7rem; color: var(--text-secondary);">Available
+                        for</small>
+                    Windows
+                </div>
+            </a>
+            <a href="#" class="glass download-btn">
+                <i class="fab fa-apple"></i>
+                <div style="text-align: left;">
+                    <small style="display: block; font-size: 0.7rem; color: var(--text-secondary);">Available
+                        for</small>
+                    macOS
+                </div>
+            </a>
+            <a href="#" class="glass download-btn">
+                <i class="fab fa-google-play"></i>
+                <div style="text-align: left;">
+                    <small style="display: block; font-size: 0.7rem; color: var(--text-secondary);">Get it on</small>
+                    Google Play
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <div class="section-header">
+            <h2>Desktop Power, Mobile Freedom</h2>
+        </div>
+        <div class="grid">
+            <div class="glass feature-card">
+                <i class="fas fa-layer-group"></i>
+                <h3>Advanced Layers</h3>
+                <p>Full control over design elements with professional-grade layering system.</p>
+            </div>
+            <div class="glass feature-card">
+                <i class="fas fa-bolt"></i>
+                <h3>Real-time Preview</h3>
+                <p>See exactly how your design looks in 3D before you order.</p>
+            </div>
+            <div class="glass feature-card">
+                <i class="fas fa-cloud-arrow-up"></i>
+                <h3>Cloud Sync</h3>
+                <p>Start on your desktop, finish on your phone. Designs synced everywhere.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo" style="margin-bottom: 2rem;">THUNDER</div>
+        <p style="color: var(--text-secondary);">© 2026 Thunder Mobile Art. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
